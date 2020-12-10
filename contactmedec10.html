@@ -1,0 +1,94 @@
+Contact Me.html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Contact Me</title>
+
+</head>
+<body>
+  <table width="50%" align="center" cellpadding="5" bgcolor="lightblue">
+<tr>
+<td><a href="index.html">Home</a></td>
+<td><a href="cvdec.html">Projects</a></td>
+<td><a href="contactmedec10.html">Contact</a></td>
+</tr>
+</table>
+<h4>Contact Me</h4>
+<form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+<fieldset>
+    <legend>Personal Details</legend>
+Name: <input type="text" name="Name" value=""><br>
+City: <input type="text" name="City" value=""><br>
+Email: <input type="email" name="Email" value=""><br>
+Contact Number: <input type="number" name="Number" value=""><br>
+</fieldset>
+<fieldset>
+<legend>Appointment Details</legend>
+
+
+Appointment Day:<br>
+Monday: <input type="checkbox" name="Monday" value="Monday">
+Tuesday: <input type="checkbox" name="Tuesday" value="Tuesday">
+Wednesday: <input type="checkbox" name="Wednesday" value="Wednesday">
+Thursday: <input type="checkbox" name="Thursday" value="Thursday">
+Friday: <input type="checkbox" name="Friday" value="Friday">
+<br>
+<label for="services">Services</label>
+<input list="Services Types" id="services" name="Service" value="">
+<datalist id="Services Types">
+<option value="Consultation">
+<option value="Bookings">
+<option value="Open Days">
+<option value="Enrolment">
+</datalist>
+</fieldset>
+<br>
+Course interested in: <input type="text" name="Course" value=""><br>
+Message: <textarea name="Message" id="" cols="44" rows="8"></textarea><br>
+<input type="submit" value="Submit">
+</form>
+
+<form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+<label for="name">Name:<input 1d="name" type="text" name="Name"></label>
+
+</form>
+&#160;
+<form>
+<label><input type="text" name="City" placeholder="City"></label>
+</form>
+&#160;
+
+<form>
+    <label><input type="email" name="Email" placeholder="Email"></label>
+</form>
+&#160;
+<form>
+    <label><input type="number" name="Number" placeholder="Contact Number"></label>
+</form>
+&#160;
+<form>
+    <label><input type="text" name="Course" placeholder="Course interested in"></label>
+</form>
+&#160;
+
+<form>
+    <textarea name="Message" placeholder="Message"
+    rows="8" cols="44">
+Message
+</textarea>
+</form>
+
+<input type="submit" value="Submit">
+&#160;
+<form>
+    <label>Do you like peas?
+    <input type="checkbox" name="peas">
+  </label>
+  </form>
+
+</body>
+
+
+
+</html>
